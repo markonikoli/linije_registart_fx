@@ -1,0 +1,92 @@
+
+@font-face {
+    src: url('font/Montserrat-Light.ttf');
+}
+
+
+@font-face {
+    src: url('font/Montserrat-Bold.ttf');
+}
+
+.button  {
+    -fx-background-color: transparent;
+ }
+
+
+/** Size the combo-box button. */
+.combo-box {
+    -fx-border-color: #0f468a;
+    -fx-background-color: white;
+    -fx-border-width: 1 1 1 1;
+    -fx-border-radius: 5 5 5 5;
+   	-fx-font-family: 'Montserrat light';
+	-fx-font-size: 17px;
+}
+
+
+
+/** Size the combo-box drop down list. */
+
+.no_line_num_cmb_od > .list-view {
+
+    -fx-pref-height: 281;
+
+    
+}
+
+
+/*
+.combo-box-popup .list-view .list-cell {
+-fx-padding: 4 0 4 5;
+-fx-background-color: -fx-control-inner-background;
+}
+
+.combo-box .list-cell {
+    -fx-border-color:#E6E6E6;
+    -fx-border-style:solid;
+    -fx-border-width: 0 0 1 0;
+
+}
+*/
+
+
+
+
+.disp_line_num_lbl {
+	-fx-font-family: 'Montserrat';
+	-fx-font-size: 25px;
+	-fx-font-weight: bold;
+}
+
+
+.disp_line_text_up {
+	-fx-font-family: 'Montserrat  Light';
+	-fx-font-size: 10px;
+	-fx-text-fill: gray;
+}
+
+.disp_line_text_down {
+	-fx-font-family: 'Montserrat  Light';
+	-fx-font-size: 10px;
+	-fx-text-fill: black;
+}
+
+.disp_broj_linje {
+	-fx-font-family: 'Montserrat';
+	-fx-font-size: 60px;
+	-fx-font-weight: bold;
+	-fx-text-fill: white;
+}
+
+
+.disp_od_do {
+	-fx-font-family: 'Montserrat  Light';
+	-fx-font-size: 20px;
+	-fx-text-fill: white;
+}
+
+.disp_line_title {
+	-fx-font-family: 'Montserrat  Light';
+	-fx-font-size: 20px;
+	-fx-text-fill: #2880ec;
+}
